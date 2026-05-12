@@ -128,6 +128,7 @@
 |------|---------|-----------|------|
 | [memory-sqlite-cache-optimization.md](./memory-sqlite-cache-optimization.md) | SQLite Cache Size 与内存优化 | 6 | SQLite cache_size 降低、读连接池缩减、metadata_cache LRU 化后的功能回归与内存验证 |
 | [long-term-memory.md](./long-term-memory.md) | Long-term Memory 长期记忆系统 | 11 | 文件记忆目录、`raw_memories.md`/`rollout_summaries` 追溯文件、无数据库 bounded Phase 2 consolidation、文件锁、原子写、按需加载说明注入、关闭召回、`/remember` 文件追加、不创建 SQLite、Admin 文件 API、WebUI 文件视图、导入导出、真实对话接口自动生成并跨独立 Session 消费，以及自动记忆与真实对话 shell E2E mock 均和当前 Phase 1/Phase 2 prompt 对齐回归 |
+| [ai-research-radar.md](./ai-research-radar.md) | AI Research Radar 技术情报系统 | 6 | Bifrost AI Research Radar 设计评审：六个核心闭环、独立 Radar Core + MCP/Agent 接入路径、V1 覆盖 GitHub/HN/RSS/论文源/Reddit/YouTube/X/动态网页、数据/安全/隐私边界、后续实现验证矩阵和 human_tests 索引同步 |
 
 ### CI/DevOps 测试
 
@@ -174,7 +175,7 @@
 
 ---
 
-**总计：95 个测试文件，1624 个测试用例**
+**总计：96 个测试文件，1630 个测试用例**
 
 ## 工作流程
 
